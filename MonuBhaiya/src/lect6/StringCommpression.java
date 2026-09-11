@@ -1,8 +1,11 @@
 package lect6;
 
+import javax.print.attribute.standard.Compression;
+
 public class StringCommpression {
      public static void main(String[] args) {
-
+            String s = "dibya";
+         Compression(s);
     }
     public static void Compression(String s){
          char prev = s.charAt(0);
@@ -12,11 +15,13 @@ public class StringCommpression {
              if(prev == ch){
                  c++;
              }else{
-                 System.out.print(ch);
+                 System.out.print(prev);
                  System.out.print(c);
                  prev = ch;
                  c=1;
              }
          }
+        System.out.print(prev);
+        System.out.print(c);
     }
 }
