@@ -1,4 +1,4 @@
 package lect13;
 
-public class Last_Occ {
+public class Last_Occ {//tail recursion
 }
