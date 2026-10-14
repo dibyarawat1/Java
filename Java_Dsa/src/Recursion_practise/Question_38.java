@@ -6,6 +6,8 @@ public class Question_38{
         // largest digit
         int n = sc.nextInt();
         System.out.println(largest(n,Integer.MIN_VALUE));
+        
+
     }
     static int largest(int n,int largi){
         if(n == 0){
